@@ -1,0 +1,84 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #cfdce5;
+    margin: 0;
+    color: #ddd;
+}
+
+#app {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(130, 152, 230, 0.1);
+    width: 800px;
+    max-width: 90%;
+    background-color: rgb(11, 12, 13);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+#task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#task-form input,
+#task-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(238, 206, 187);
+    color: black;
+}
+
+#task-form input {
+    flex: 1;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(89, 89, 90);
+    padding: 10px;
+    border: 1px solid #0d0d0d;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.task-item.completed {
+    text-decoration: line-through;
+    background-color:rgb(89, 89, 90);
+}
+
+.task-actions button {
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+.complete-task{
+    background-color: rgb(170, 230, 170);
+}
+
+.edit-task{
+    background-color: rgb(141, 172, 229);
+}
+
+.delete-task{
+    background-color: rgb(227, 160, 170);
+}
